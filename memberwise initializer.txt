@@ -1,0 +1,11 @@
+struct Student {
+    var name:String
+    var age: String
+    var birthdate:String
+}
+let student = Student(name:"Sanjh Dixit",age:"18",birthdate:"24/09/2003")
+print(student.name)
+
+print(student.age)
+
+print(student.birthdate)
